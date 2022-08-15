@@ -1,0 +1,1741 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+    text-decoration: none; 
+}
+.container{
+    max-width: 100%;  
+    margin: 0 auto;
+    overflow: hidden;
+}
+.containeInner{
+    width: 100%;
+    height: auto;
+}
+.headerImg{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1024px;   
+}
+.headerTop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 33px;
+    margin-right: 65px;
+    padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerTop a{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32.2px;
+}
+.logo{
+    width: 313px;
+    height: 56.64px;
+    flex-grow: 3;
+    margin-bottom: 15px;
+}
+.connectwallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 267px;
+    height: 38px;
+    background-color: #6CFFA2;
+    margin-right:17px;
+}
+.connectwallet a{
+    color: #111111;
+    font-weight: 600;
+}
+.whitepaper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 38px;
+    background-color: #0E0E0E;
+    margin-right:17px;
+    
+}
+.whitepaper a{
+    color: #FFFFFF;
+}
+.mrBeastInnerimg{
+    position: relative;
+}
+.mrbeast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 38px;
+    background-color: #0E0E0E;
+    
+}
+.mrbeast a{
+    color: #FFFFFF;
+}
+.headerBottom{
+    padding-bottom: 63px;
+    padding-left: 63px;
+    padding-right: 63px;
+    margin-top: 382px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.coin{
+    background-color: #282828;
+    width: 100%;
+    height: 848px;
+    margin-left:-2px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-left: 4px solid #1f04121a;
+    border-bottom: 4px solid #1f04121a;
+    border-right: 4px solid #1f04121a;
+    box-shadow: 3px 3px 10px #30061b9a;
+    position: relative;
+}
+.bigtext{
+    width: 1444px;
+    margin: 0 auto;
+    text-align: center;
+}
+.textcoin{
+    font-size: 410px;
+    height: 574px;
+    text-transform: uppercase;
+    color: #ffffff21;
+    margin-left: 2px;
+    letter-spacing: 30px;
+}
+.textmrbeast{
+    font-size: 410px;
+    height: 400px;
+    text-transform: uppercase;
+    color: #282828;
+    margin-left: 10px;
+    letter-spacing: 30px;
+    width: 2440px;
+    margin-left: -800px;
+    margin-top: -130px;
+    text-shadow: -1px 0 #ffffff21, 0 1px #ffffff21, 1px 0 #ffffff21, 0 -1px #ffffff21;
+    
+}
+.allDivContainer{
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: -700px;
+    
+}
+
+.smallDivContainer{
+    width: 380px;
+    height: 214px;
+    margin-top: -40px;
+    margin-left: 30px;
+    position: relative;
+
+}
+.smallDivContainer div:first-child{
+    background-color: #DE71F3;
+    width: 100px;
+    height: 35px;
+    border: 5px solid #000000;
+    box-shadow: 5px 5px #030303;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.smallDivContainer div:nth-child(2),
+.smallDivContainer div:nth-child(3)
+{
+    background-color: #6CFFA2;
+    width: 100px;
+    height: 35px;
+    border: 5px solid #000000;
+    box-shadow: 5px 5px #030303;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.qrcodDiv{
+    padding-bottom: 35px;
+    padding-top: 2px;
+    padding-left: 35px;
+    border-radius: 5px;
+    max-width: 970px;
+    min-height: 287px;
+    background-color: #191919;
+    border: 5px solid #000000;
+    box-shadow: 5px 5px #030303;
+    margin-top: -190px;
+    position: absolute;
+}
+.flexQRDiv{
+  display: flex;
+  margin-top: -350px;
+}
+.QR{
+    border: 15px solid #FFFFFF;
+    margin-top: 15px;
+    width: 256px;
+    height: 256px;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+.QR img{
+    width: 100%;
+}
+.CurrencyEth{
+    margin-top: 15px;
+    flex-grow: 2;
+
+}
+.ETH{
+    width: 90%;
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+}
+.Hurry{
+    width: 90%;
+    margin-top: 8px;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    color: #60FB9D;
+}
+.YouCan{
+    width: 90%;
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+}
+.Connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 554px;
+    height: 56px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+.Connect a{
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    color: #000000;
+}
+.pickAll{
+    width: 800px;
+    
+}
+
+.pick{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.giftContainer{
+    background-color: #191919;
+    height: 670px;
+    width: 100%;
+    margin-left:-2px;
+    margin-top: -65px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-left: 4px solid #1f04121a;
+    border-bottom: 4px solid #1f04121a;
+    border-right: 4px solid #1f04121a;
+    box-shadow: 3px 3px 10px #30061b9a;
+    
+}
+.geefline{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gif{
+    margin-top: 80px;
+    font-size: 151px;
+    height: 211px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.02);
+    letter-spacing: 30px;
+}
+.gifopposite{
+    margin-top: 50px;
+    font-size: 151px;
+    height: 211px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transform: rotate(180deg);
+    color: rgba(255, 255, 255, 0.02);
+    font-weight: 700;
+    
+}
+.fourDiv{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    max-width: 1350px;
+    margin-top: -370px;
+  
+}
+.oneFourDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 237px;
+    background-color: #191919;
+    border: #FFFFFF 4px solid;
+    box-shadow: 5px 5px 5px #F94E9B;
+
+}
+.oneFourDivs p{
+    font-size: 19px;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 36px;
+}
+.oneFourDivs img{
+    margin-top: 40px;
+}
+.Polygon{
+    width: 205px;
+    height: 143px;
+    margin: 0 auto;
+}
+
+.videoBlock{
+    background-color: #282828;
+    width: 100%;
+    height: 997px;
+    margin-top: -24px;
+    position: absolute;
+    z-index: -5;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-left: 4px solid #1f04121a;
+    border-bottom: 4px solid #1f04121a;
+    border-right: 4px solid #1f04121a;
+    box-shadow: 3px 3px 10px #30061b9a; 
+}
+.videoBlockAll{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.leftAsaid{
+    font-size: 270px;
+    height: 700px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #ffffff21;
+    font-weight: 400;
+    letter-spacing: 30px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    
+    
+}
+.midl{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    margin-top: 50px;
+}
+.midl p:first-child{
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+.midl p:nth-child(2){
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.videoBlockConnect{
+    display: flex;
+    background-color: #C08BE9;
+    margin: 0 auto;
+    align-items: center;
+    width: 294px;
+    height: 75px;
+    justify-content: space-around;
+    margin-top: 53px;
+    border-radius: 2px;
+    box-shadow: 6px 6px #000000;
+}
+.videoBlockConnect a{
+    font-size: 23px;
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    width:700px;
+    height: 485px;
+    background-color: #FFFFFF;
+    margin-top: 53px;
+}
+.rightAsaid{
+    font-size: 270px;
+    font-weight: 400;
+    margin-left: 50px;
+    height: 800px;
+    text-transform: uppercase;
+    color: #282828;
+    text-shadow: -1px 0 #ffffff21, 0 1px #ffffff21, 1px 0 #ffffff21, 0 -1px #ffffff21;
+    letter-spacing: 30px;
+    writing-mode: vertical-rl; 
+}
+.giveaway{
+    background-color: #191919;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 951px;
+    z-index: -6;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-left: 4px solid #1f04121a;
+    border-bottom: 4px solid #1f04121a;
+    border-right: 4px solid #1f04121a;
+    box-shadow: 3px 3px 10px #30061b9a;    
+}
+.giveawayAll{
+    background-color: #191919;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.title h2:first-child{
+    font-size: 74PX;
+    color: rgba(255, 255, 255, 0.02);
+    position: relative;
+    margin-top: 60px;
+}
+.title h2:last-child{
+    position: absolute;
+    color:#ffff;
+    text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+    font-size: 33px;
+    
+
+}
+.title1{
+    top: 60px;
+    left: 44%;
+}
+.title2{
+    top: 525px;
+    left: 44%;
+}
+.title3{
+    top: 995px;
+    left: 44%;
+}
+.giveawayAll p{
+    color: #FFFFFF;
+    font-size: 26px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+.giveawayAll img:first-child{
+ margin-top: 50px;
+}
+.giveawayAll img:last-child{
+    margin-top: 50px;
+   }
+.rulles{
+    background-color: #282828;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 2076px;
+    z-index: -7;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-left: 4px solid #1f04121a;
+    border-bottom: 4px solid #1f04121a;
+    border-right: 4px solid #1f04121a;
+    box-shadow: 3px 3px 10px #30061b9a;
+
+   }
+
+.flexRulles{
+    display: flex;
+    align-items: center;
+}
+.flexRulles h2{
+    font-weight: 600;
+    font-size: 134px;
+    color: rgba(255, 255, 255, 0.03);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    width: 600px;
+}
+.flexRulles h4{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 58px;
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+}
+.rullesIn p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    text-align: center;
+    margin-top: -70px;
+    color: #FFFFFF;
+    letter-spacing: 1.6px; 
+}
+.ifYou{
+    width: 70%;
+    height: 66px;
+    background: #191919;
+    border: 4px solid #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    letter-spacing: 1.6px;
+}
+.mR{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 169px;
+    text-align: center;
+    color:#282828 ;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    text-transform: uppercase;
+}
+.connectValletRulles{
+    display: flex;
+    background-color: #C08BE9;
+    margin: 0 auto;
+    align-items: center;
+    width: 294px;
+    height: 75px;
+    justify-content: space-around;
+    border-radius: 2px;
+    box-shadow: 6px 6px #000000;
+
+}
+.mrConnect{
+    position: relative;
+}
+.forpozishon{
+    position: absolute;
+    top: 55px;
+    left: 40%;
+}
+.connectValletRulles a{
+    font-size: 23px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+.mrBeast{
+    background-color:#191919;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 3045px;
+    z-index: -8;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-left: 4px solid #1f04121a;
+    border-bottom: 4px solid #1f04121a;
+    border-right: 4px solid #1f04121a;
+    box-shadow: 3px 3px 10px #30061b9a;
+}
+
+.mrBeastInnerimg{
+    width: 100%;
+}
+.mrBeastInnerQrContainer{
+    width: 100%;
+    height: auto;
+}
+.mrBeastInnerQr{
+    max-width: 970px;
+    margin: 0 auto;
+
+}
+.mrBeastInner p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 69px;
+    color:#191919;
+    text-align: center;
+    margin-top: 200px;
+    letter-spacing: 1.8px;
+    text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+}
+.bonusbacer{
+    background-color:#282828;
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 0;
+    z-index: -9;
+}
+.bonus{
+    background-color:#282828;
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 4460px;
+    z-index: -9;
+}
+
+.bonusimage{
+    background-color:#282828;
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: -55px;
+    z-index: -9;
+}
+
+
+.bonusCoin p:first-child{
+    font-weight: 600;
+    font-size: 410px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.02);
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.bonusCoin p:last-child{
+    font-weight: 600;
+    font-size: 410px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.02);
+    margin-top: -530px;
+    margin-right: 20px;
+    transform: rotate(180deg);
+}
+.bonusP{
+    position: relative;
+    margin-top: -1100px;
+}
+.bonusP p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1.6px;
+    
+}
+.verticalBlock{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+.oneOfVerticalBlock{
+    width: 10%;
+    height: 510px;
+    color:#FFFF;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    border: 4px solid #000000;
+    background-color: #C08BE9;
+    box-shadow: 3px 3px #0000;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+   
+}
+.horizontalBlock{
+    position: absolute;
+    margin-top: 60px;
+}
+.OneOfHorizontalBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 80px;
+    background-color: #242424;
+    border: 5px solid #FFFFFF;
+    box-shadow: 3px 3px #FFFFFF;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.OneOfHorizontalBlock div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 50px;
+    color: #ffff;
+    font-size: 15px;
+}
+.TxHash{
+    border-right: 5px solid #FFFFFF;
+    
+}
+.Block{
+    border-right: 5px solid #FFFFFF;
+
+}
+.from{
+    flex-direction: column;
+    border-right: 5px solid #FFFFFF;
+}
+.to{
+    flex-direction: column;
+    border-right: 5px solid #FFFFFF;
+}
+.value{
+    flex-direction: column;
+    border-right: 5px solid #FFFFFF;
+}
+.free{
+    
+    border-right: 5px solid #FFFFFF;
+}
+
+.from p:first-child,
+.to p:first-child,
+.value p:first-child{
+    line-height: 0;
+}
+.darck{
+    color:  #ffffff86;
+    line-height: 0;
+}
+
+.reserved{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.27);
+    text-align: center;
+    margin-top: 650px;
+}
+
+
+.Choose{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.smallDivs{
+    margin-left: 40px;
+}
+.smallDivs div:first-child{
+    background-color: #DE71F3;
+    width: 100px;
+    height: 35px;
+    border: 5px solid #000000;
+    box-shadow: 5px 0 #030303;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.smallDivs div:nth-child(2),
+.smallDivs div:nth-child(3)
+{
+    background-color: #6CFFA2;
+    width: 100px;
+    height: 35px;
+    border: 5px solid #000000;
+    box-shadow: 5px 0 #030303;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.bigdiv{
+    max-width: 978px;
+    height: 363px;
+    background-color: #191919;
+    border: 5px solid #000000;
+    box-shadow: 5px 0 #030303;
+    margin-top: -9px;
+    border-radius: 20px;
+    
+}
+.bigdiv h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    letter-spacing: 1.6px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+.choosewsllet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.input{
+    width: 247px;
+    height: 62px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px #030303;
+}
+.bigDivAll{
+    display: flex;
+}
+.bigdiv p{
+    width: 495px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 1.8px;
+    margin: 0 auto;
+
+
+}
+.contentElips{
+    flex-grow: 2;
+}
+.elips{
+    display:block;
+    margin:auto;
+    margin-top: 33px;
+}
+.threeLine{
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-left: 50px;
+    
+}
+.bonusInner{
+    width: 100%;
+}
+.gridblock{
+    max-width: 1207px;
+    margin: 0 auto;
+}
+
+.grid{
+    margin: 0 auto;
+    width: 94%;
+    
+}
+
+.chooseyoy{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 92px;
+}
+
+.claim{
+    width: 294px;
+    height: 75px;
+    background-color: #C08BE9;
+    box-shadow: 5px 5px #0000;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 42%;
+}
+.claim a{
+    color: #FFFFFF;
+    text-transform: uppercase; 
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1.6;
+    line-height: 72px;
+
+}
+.Choose {
+    width: 70%;
+}
+
+.bacers{
+    width: 100%;
+    height: 100px;
+    margin-top: 4550px;
+    color: #000000;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 97px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    }
+    
+@media screen and (max-width:1880px){
+    .bonus{
+        margin-top: 4430px;
+    }
+}
+@media screen and (max-width:1777px){
+    .bonus{
+        margin-top: 4390px;
+    }
+    .bacers{
+        margin-top: 4500px;
+    }
+}
+@media screen and (max-width:1755px){
+    .title3{
+        top: 1030px;
+    }
+}
+
+@media screen and (max-width:1703px){
+    .bonus{
+        margin-top: 4350px;
+    }
+    .bacers{
+        margin-top: 4440px;
+    }
+}
+@media screen and (max-width:1615px){
+    .bonus{
+        margin-top: 4310px;
+    }
+    .bacers{
+        margin-top: 4490px;
+    }
+}
+@media screen and (max-width:1535px){
+    .bonus{
+        margin-top: 4265px;
+    }
+    .bacers{
+        margin-top: 4250px;
+    }
+
+    
+}
+@media screen and (max-width:1502px){
+    .rulles{
+        margin-top: 2110px;
+    } 
+ 
+}
+@media screen and (max-width:1800px){
+    .claim{
+        top: 50%;
+    } 
+ 
+}
+@media screen and (max-width:1650px){
+    .claim{
+        top: 47%;
+    } 
+    .bacers{
+        margin-top: 4450px
+    }
+}
+
+
+
+
+@media screen and (max-width:1480px){
+     .coin, .giftContainer, .videoBlock, .giveaway, .bacers, .rulles, .mrBeast, .bonus, .bonusbacer{
+        width: 1272px;
+    }
+    .bacers {
+      margin-top: 4350px;
+  }
+  .claim{
+      top: 500px;
+  }
+  .videoBlock, .giveaway, .rulles, .mrBeast, .bonus{
+      border-left: none;
+      border-right: none;
+  }
+    .bonusbacer{
+       padding-left: 0;
+        padding-right: 0; 
+    }
+    .bonus{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 4165px;
+    }
+    .container{
+        max-width: 1280px;
+      }
+      .videoBlockAll, .videoBlock {
+        width: 1272px;
+        justify-content: center;
+    }
+    .leftAsaid{
+        font-size: 240px;
+        margin-right: 10px;
+    }
+    .rightAsaid{
+        font-size: 240px;
+        margin-left: 10px;
+    }
+    .title1{
+        left: 540px;
+    }
+    .title2{
+        top: 555px;
+        left: 540px;
+    }
+    .title3{
+        top: 1050px;
+        left: 540px;
+    }
+    .giftContainer {
+        height: auto;
+    }
+    .Polygon{
+        display: none;
+    }
+    .fourDiv{
+        padding: 10px;
+        height: auto;
+    }
+    .oneFourDivs {
+        margin-bottom: 25px;
+    }
+}
+    
+
+
+
+@media screen and (max-width:1400px){
+    .container, .coin {
+        max-width: 1014px;
+    }
+    .bonus{
+        margin-top: 3790px;
+    }
+   
+  
+    .bacers{
+        margin-top: 3880px;
+    }
+    .claim {
+        top: 390px;
+        width: 200px;
+        height: auto;
+    }
+    .claim a{
+        font-size: 18px;
+        line-height: 36px;
+    }
+  
+    .coin, .giftContainer, .giveaway, .rulles, .bacers, .mrBeast, .bonus, .bonusbacer{
+        width: 1014px;
+    }
+   .giftContainer{
+    width: 1014px;
+   }
+
+    .headerTop {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .videoBlockAll, .videoBlock {
+        width: 1016px;
+        justify-content: center;
+    }
+    .connectwallet, .whitepaper, .mrbeast, .logo{
+        width: 200px;
+        
+        margin-right: 15px;
+    }
+    .logo img{
+        width: 200px;
+        padding: 10px;
+    }
+    .connectwallet a,
+    .whitepaper a,
+    .mrbeast a {
+        font-size: 18px;
+    }
+    .headerBottomImg{
+        width: 25%;
+    }
+    .textcoin, .textmrbeast {
+        font-size: 320px;
+        
+    }
+    .textmrbeast{
+        line-height: 1.5;
+    }
+    .allDivContainer {
+        max-width: 85%;
+    }
+    .qrcodDiv, .pickline {
+        width: 800px;
+    }
+
+    .QR
+    {
+        width: 150px;
+        height: 150px;
+        margin-top: 110px;
+    }
+    .flexQRDiv {
+        margin-top: -290px;
+    }
+    .ETH, .Hurry, .YouCan{
+        font-size: 20px;
+    }
+    .Connect{
+        width: 455px;
+    }
+    .fourDiv{
+        max-width: 800px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .leftAsaid{
+        display: none;
+    }
+    .rightAsaid{
+       display: none;
+    }
+    .videoBlockAll {
+        width: 100%;
+        justify-content: center;
+    }
+    .title1, .title2, .title3{
+        display: none;
+    }
+    .title h2:first-child {
+        font-size: 60px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .giveawayAll p{
+        font-size: 18px;
+    }
+    .rulles{
+        margin-top: 2000px;
+    }
+    .ifYou{
+        font-size: 23px;
+    }
+    .mR, .flexRulles h2{
+        font-size: 120px;
+    }
+    .flexRulles h2{
+        margin-left: 30px;
+    }
+    .connectValletRulles{
+        height: 50px;
+    }
+    .flexRulles h2{
+        font-size: 100px;
+    }
+    
+    .mrBeast{
+        margin-top: 2818px;
+    }
+    .mrBeastInnerQr {
+        max-width: 83%;
+    }
+    
+    .forpozishon {
+        top: 40px;
+        left: 35%;
+    }
+    .grid{
+        width: 80%;
+    }
+
+    .verticalBlock, .OneOfHorizontalBlock{
+        width: 800px;
+    }
+    .OneOfHorizontalBlock div{
+        font-size: 10px;
+    }
+    .oneOfVerticalBlock{
+        font-size: 15px;
+    }
+   
+
+}
+
+@media screen and (max-width:1054px){
+    .container {
+        max-width: 700px;
+    }
+    .bonusP p{
+        margin-top: -60px;
+    }
+    .bonus, .bonusbacer{
+        height: 800px;
+    }
+    .bacers {
+        margin-top: 3500px;
+    }
+    .bonus{
+        margin-top: 3400px;
+    }
+    .claim {
+        top: 265px;
+        width: 200px;
+        height: 35px;
+        left: 35%;
+    }
+    .claim a{
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+   
+    .coin, .giftContainer, .videoBlockAll, .videoBlock, .bacers, .rulles, .mrBeast, .bonus, .bonusbacer{
+        width: 700px;
+    }
+    .giftContainer{
+        width: 694px;
+        border-left: none;
+        border-right: none;
+        box-shadow: none;
+    }
+    .bonus, .bonusbacer{
+        width: 692px;
+    }
+    .videoBlock{
+        height: 820px;
+        width: 692px;
+    }
+   .giveaway{
+    width: 700px;
+   }
+   .textcoin, .textmrbeast{
+    display: none;
+   }
+   .coin{
+        margin-top: 700px;
+        height: 600px;
+   }
+    .allDivContainer {
+        max-width: 82%;
+        }
+    .qrcodDiv, .pickline {
+        width: 600px;
+    }
+    .ETH, .Hurry, .YouCan{
+        font-size: 18px;
+    
+    }
+    .flexQRDiv {
+        margin-top: -200px;
+    }
+    .QR{
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+    .Connect {
+        width: 300px;
+    }
+    .CurrencyEth{
+        display: none;
+    }
+    .gifopposite, .gifimg{
+        display: none;
+    }
+    .gif{
+        display: block;
+        width: 680px;
+        margin-left: 20%;
+        color: rgba(255, 255, 255, 0.05);
+    }
+    .video{
+        width: 600px;
+        height: 350px;
+    }
+    .midl{
+        align-items: center;
+    }
+    .giveaway{
+        margin-top: 770px;
+        width: 692px;
+    }
+    .rulles {
+        margin-top: 1900px;
+        width: 692px;
+    }
+    .flexRulles{
+        display: block;
+
+    }
+    .flexRulles h2 {
+        font-size: 90px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.05);
+    }
+    .flexRulles h4 {
+        display: none;
+    }
+    .ifYou{
+        font-size: 16px;
+    }
+    .mR {
+        font-size: 90px;
+    }
+    .connectValletRulles {
+        height: 40px;
+        width: 220px;
+        margin-top: -10px;
+    }
+    .connectValletRulles a{
+        font-size: 18px;
+    }
+    .mrBeast {
+        margin-top: 2654px;
+        width: 692px;
+        height: 830px;
+    }
+    .mrBeastInner{
+        width: 692px;
+    }
+    .qrcodDiv, .pickline {
+        width: 600px;
+        margin-left: -35px;
+    }
+    .bonus, .bonusbacer{
+        width: 694px;
+        height: 780px;
+    }
+
+    .bonusCoin{
+        display: none;
+    }
+    .bonusP{
+        margin-top:100px ;
+    }
+    .verticalBlock, .OneOfHorizontalBlock {
+        width: 550px;
+    }
+    .oneOfVerticalBlock {
+        font-size: 12px;
+    }
+   
+
+}
+
+@media screen and (max-width:700px){
+    .container {
+        max-width: 392px;
+    }
+   
+    
+    .logo {
+        height: auto;
+    }
+    .bacers {
+        font-size: 50px;
+    }
+    .claim {
+        top: 152px;
+        left: 26%;
+        }
+    .smolldivschoose{
+        display: none;
+    }
+    .bigdiv h3{
+        font-size: 23px;
+    }
+    .bigdiv p{
+        font-size: 18px;
+        width: auto;
+    }
+    .threeLine{
+        display: none;
+    }
+   
+    
+    .coin, .giftContainer, .giveaway, .videoBlockAll, .bacers, .videoBlock, .rulles, .mrBeast, .bonus, .bonusbacer{
+        width: 392px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: none;
+    }
+    .qrcodDiv, .giftContainer{
+        box-shadow: none;
+    }
+    .coin{
+        height: 450px;
+    }
+    .headerTop{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .logo, .connectwallet, .mrbeast, .whitepaper {
+        width: 100px;
+        
+    }
+    .connectwallet a, .mrbeast a, .whitepaper a {
+        font-size: 10px;
+        
+    }
+    .logo img{
+        width: 100px;
+    }
+    .qwfasf, .smallDivContainer{
+        display: none;
+    }
+    .flexQRDiv{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .qrcodDiv, .pickline {
+        width: 350px;
+        position: static;
+    }
+    .pickline{
+        margin-left: 3px;
+    }
+    .QR{
+        margin-top: 110px;
+    }
+    .gif{
+        font-size: 80px;
+        height: 100px;
+    }
+    .video {
+        width: 300px;
+        height: auto;
+    }
+    .videoBlockAll{
+        width: 392px;
+        height: auto;
+    }
+    .videoBlock{
+        width: 392px;
+        height: 650px;
+    }
+    .giveaway{
+      margin-top: 570px; 
+
+    }
+    .giveawayAll{
+        width: 392px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .flexRulles h2{
+        font-size: 50px;
+        margin-bottom: 70px;
+        margin-left: -30%;
+    }
+    .rulles {
+        margin-top: 2050px;
+        height: 730px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .ifYou {
+        font-size: 14px;
+        width: 90%;
+    }
+    .mR{
+        display: none;
+    }
+    .forpozishon{
+        position: static;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .mrBeast {
+        margin-top: 2778px;
+        height: 710px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .mrBeastInner {
+        width: 392px;
+    }
+    .mrBeastInnerQrContainer{
+        margin-top: 180px;
+        box-shadow: none;
+        border: 1px solid;
+    }
+    .mrBeastInner p {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .bonusP p{
+        font-size: 28px;
+    }
+    .oneOfVerticalBlock {
+        font-size: 9px;
+    }
+    .OneOfHorizontalBlock div {
+        font-size: 6px;
+    }
+    .TxHash, .Block, .from, .to, .value, .free {
+        border-right: 1px solid #FFFFFF;
+        height: 30px;
+    }
+    .verticalBlock,.OneOfHorizontalBlock {
+        width: 320px;
+    }
+    .OneOfHorizontalBlock{
+        height: 40px;
+    }
+    .oneOfVerticalBlock {
+        height: 310px;
+    }
+    .horizontalBlock{
+        margin-top: 40px;
+    }
+    .bonus, .bonusbacer{
+        height: 500px;
+    }
+    .reserved{
+        margin-top: 380px;
+    }
+
+
+}
+
+
+@media screen and (max-width:392px){
+   
+    .claim {
+        top: 100px;
+        left: 15%;
+    }
+    .baerimg{
+        width: 270px;
+        margin-top: -50px;
+    }
+    .bacers {
+        font-size: 20px;
+        line-height: 2;
+    }
+    
+    
+    .headerImg{
+        width: 270px;
+    }
+    .coin, .giftContainer, .giveaway, .videoBlockAll, .bacers, .videoBlock, .rulles, .mrBeast, .bonus, .bonusbacer{
+        width: 270px;
+    }
+    .qrcodDiv, .pickline {
+        width: 260px;
+        padding-left: 10px;
+
+    }
+    .pickline{
+        margin-left: -3px;
+    }
+    .Connect {
+        width: 250px;
+    }
+    .gif{
+        font-size: 40px;
+        height: 70px;
+    }
+    .video {
+        width: 240px;
+        height: auto;
+    }
+    .midl{
+        width: 250px;
+    }
+    .videoBlockConnect{
+        width: 220px;
+        height: 40px;
+    }
+    .videoBlockConnect a{
+        font-size: 18px;
+    }
+    .giveaway{
+      margin-top: 570px; 
+
+    }
+    .giveawayAll{
+        width: 270px;
+
+    }
+    .flexRulles h2{
+        font-size: 30px;
+        margin-bottom: 70px;
+    }
+    .rulles {
+        margin-top: 2120px;
+    }
+    .ifYou {
+        font-size: 8px;
+    }
+    .title h2:first-child {
+        font-size: 50px;
+    }
+
+    .mrBeast {
+        margin-top: 2847px;
+        height: auto;
+    }
+    .mrBeastInner {
+        width: 270px;
+    }
+    .mrBeastInnerQrContainer{
+        width: 260px;
+        border: none;
+    }
+    .bonus, .bonusbacer {
+        height: 450px;
+    }
+
+    .bonusP p{
+        font-size: 22px;
+    }
+    .oneOfVerticalBlock {
+        font-size: 9px;
+    }
+    .OneOfHorizontalBlock div {
+        font-size: 6px;
+    }
+    .verticalBlock,.OneOfHorizontalBlock {
+        width: 235px;
+        margin-left: -10px;
+    }
+    .OneOfHorizontalBlock{
+        margin-left: -25px;
+        width: 258px;
+    }
+    .oneOfVerticalBlock {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .horizontalBlock {
+        margin-top: 20px;
+    }
+    .oneOfVerticalBlock {
+        height: 300px;
+    }
+    .reserved {
+        margin-top: 350px;
+    }
+    .mrBeastqrcode{
+        width: 250px;
+        margin-left: -22px;
+    }
+    .pickline{
+        width: 250px;
+    }
+    .mrBeast .Connect {
+        margin-left: -5px;
+    }
+    .oneFourDivs p {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+  
